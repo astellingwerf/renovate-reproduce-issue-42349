@@ -1,12 +1,12 @@
 {
-    "configMigration": true,
-    "baseBranch": [
-        "main"
+    configMigration: true,
+    baseBranchPatterns: [
+        'main',
     ],
-    "packageRules": [
+    packageRules: [
         {
-            "matchPackageNames": "/.*\\d?/",
-            "allowedVersions": "/^\\d{4}\\.\\d+\\.\\d+$/"
-        }
-    ]
+            matchPackageNames: '/.*\\d?/',
+            allowedVersions: '/^\\d{4}\\.\\d+\\.\\d+$/',
+        },
+    ],
 }
